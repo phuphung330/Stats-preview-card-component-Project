@@ -22,22 +22,18 @@
     height: 100%;
     font-family: var(--font1);
     color: white;
-    
+    margin: 0;
     
   }
   .khung1{
     width: 900px;
     height: 400px;
-    position: absolute;
-    left:200px;
-    top: 100px;
-    bottom:100px;
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: var(--cardbg);
     border-radius: 10px;
     overflow: hidden;
-    margin:0 auto 0 auto;
+    
   }
 
  .khungcon1{
@@ -95,3 +91,11 @@ h2{
     background-position: center;
     background-size: cover;
   }
+.container{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
