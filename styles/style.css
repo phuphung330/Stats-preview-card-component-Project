@@ -25,7 +25,7 @@
     margin: 0;
     
   }
-  .container{
+.container{
     display: flex;  
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,7 @@
     height: 100vh;
   
   }
-  .card_body{
+.card_body{
     width: 900px;
     height: 400px;
     display: grid;
@@ -44,16 +44,16 @@
     
   }
 
- .card_content{
+.card_content{
    padding:40px 60px 20px 60px;
    text-align: left;
    
    }
-  .ins{
+.ins{
     color: var(--violet);
 
   }
-  .stat{
+.stat{
     display: grid;
     grid-template-columns: 100px 100px 100px;
     text-align: left;
