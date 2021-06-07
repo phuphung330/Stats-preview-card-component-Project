@@ -25,7 +25,15 @@
     margin: 0;
     
   }
-  .khung1{
+  .container{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+  }
+  .card_body{
     width: 900px;
     height: 400px;
     display: grid;
@@ -36,7 +44,7 @@
     
   }
 
- .khungcon1{
+ .card_content{
    padding:40px 60px 20px 60px;
    text-align: left;
    
@@ -75,27 +83,20 @@ h2{
   }
   
   
-  .img::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color:hsl(278deg 88% 33% / 53%);
-  }
   
-  .img {
-    position: relative;
-    background-image: url(images/image-header-desktop.jpg);
-    background-position: center;
-    background-size: cover;
-  }
-.container{
-  display: flex;  
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  
+.img {
+    
+    background-color:hsl(284deg 50% 33% / 73%);
+    
 
+
+
+}
+
+.layout{
+  mix-blend-mode: overlay;
+  
+
+  
 }
